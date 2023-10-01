@@ -99,7 +99,7 @@ export default function Home() {
   return (
     <div>
       {data.map((orderData, index) => {
-        let previousDate = getNextDate(orderData.packingTeam.orderDate);
+        let packingDate = getNextDate(orderData.packingTeam.orderDate);
         return (
           <div key={index}>
             <button
@@ -107,8 +107,8 @@ export default function Home() {
               className="bg-green-500 p-3 m-2"
             >
               Generate Order List for{" "}
-              <span className="font-semibold"> {previousDate} </span> from
-              orders placed on{" "}
+              <span className="font-semibold"> {packingDate} </span> from orders
+              placed on{" "}
               <span className="font-semibold">
                 {" "}
                 {orderData.packingTeam.orderDate}{" "}
