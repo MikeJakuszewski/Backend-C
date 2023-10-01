@@ -2,7 +2,7 @@
   {
     "orderId": 1,
     "orderTotal": 100,
-    "orderDate": "tbd",
+    "orderDate": "October 2, 2023",
     "shippingAddress": "Toronto",
     "customerName": "Menan",
     "customerEmail": "menan@menan.com",
@@ -12,12 +12,12 @@
         "productId": 100,
         "lineItem": "Valentines Box",
         "price": 50,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "lineItemId": 2,
         "productId": 101,
-        "lineItem": "Valentines Box",
+        "lineItem": "Birthday Box",
         "price": 50,
         "quantity": 1
       }
@@ -25,8 +25,8 @@
   },
   {
     "orderId": 2,
-    "orderTotal": 150,
-    "orderDate": "tbd",
+    "orderTotal": 300,
+    "orderDate": "October 3, 2023",
     "shippingAddress": "Montreal",
     "customerName": "Mike",
     "customerEmail": "mike@mike.com",
@@ -43,14 +43,14 @@
         "productId": 101,
         "lineItem": "Birthday Box",
         "price": 50,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "lineItemId": 3,
         "productId": 102,
         "lineItem": "Client Gift Box",
         "price": 50,
-        "quantity": 1
+        "quantity": 3
       }
     ]
   }
