@@ -1,0 +1,57 @@
+[
+  {
+    "orderId": 1,
+    "orderTotal": 100,
+    "orderDate": "tbd",
+    "shippingAddress": "Toronto",
+    "customerName": "Menan",
+    "customerEmail": "menan@menan.com",
+    "lineItems": [
+      {
+        "lineItemId": 1,
+        "productId": 100,
+        "lineItem": "Valentines Box",
+        "price": 50,
+        "quantity": 1
+      },
+      {
+        "lineItemId": 2,
+        "productId": 101,
+        "lineItem": "Valentines Box",
+        "price": 50,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "orderId": 2,
+    "orderTotal": 150,
+    "orderDate": "tbd",
+    "shippingAddress": "Montreal",
+    "customerName": "Mike",
+    "customerEmail": "mike@mike.com",
+    "lineItems": [
+      {
+        "lineItemId": 1,
+        "productId": 100,
+        "lineItem": "Valentines Box",
+        "price": 50,
+        "quantity": 1
+      },
+      {
+        "lineItemId": 2,
+        "productId": 101,
+        "lineItem": "Birthday Box",
+        "price": 50,
+        "quantity": 1
+      },
+      {
+        "lineItemId": 3,
+        "productId": 102,
+        "lineItem": "Client Gift Box",
+        "price": 50,
+        "quantity": 1
+      }
+    ]
+  }
+]

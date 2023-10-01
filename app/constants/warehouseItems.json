@@ -1,0 +1,22 @@
+[
+  {
+    "lineItemId": 1,
+    "lineItem": "Valentines Box",
+    "subItems": [
+      "Red Roses Bouquet",
+      "Box of chocolates",
+      "Love card",
+      "Women’s perfume"
+    ]
+  },
+  {
+    "lineItemId": 2,
+    "lineItem": "Birthday Box",
+    "subItems": ["Birthday cupcake", "$100 Visa Gift Card", "Birthday card"]
+  },
+  {
+    "lineItemId": 3,
+    "lineItem": "Client Gift Box",
+    "subItems": ["Bottle of wine", "Fruit basket", "Pen"]
+  }
+]
