@@ -52,7 +52,7 @@ export default function Home() {
               {packingTeam.lineItems.map((lineItem) => {
                 return (
                   <div className="ml-5" key={lineItem.lineItemId}>
-                    {lineItem.lineItem}{" "}
+                    {lineItem.quantity} {lineItem.lineItem}(es){" "}
                     <div className="ml-5">
                       {lineItem.subItems.map((subItem, i) => {
                         return <div key={i}>-{subItem}</div>;
@@ -95,7 +95,6 @@ export default function Home() {
       </div>
     );
   };
-  console.log(data);
 
   return (
     <div>
